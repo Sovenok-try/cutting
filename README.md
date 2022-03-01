@@ -6,5 +6,5 @@ In the script "Cutting.py" you need to write name of initial image, path to it a
 If the folder doesn't exist, this script will create folder named "name of image_cut"
 This script works with images with different count of channels.
 
-#Authors
+# Authors
 Ekaterina Muzykina kotya.muzykina@gmail.com
