@@ -56,7 +56,7 @@ def Processing(path_to_image,name_of_image,path_to_dir,image_size,borderdelta):
         else:
             res = imgs[i]
         resimg = Image.fromarray(res.astype('uint8'), mode = startimg.mode)
-        resimg = resimg.resize(startimg.size)
+        resimg = resimg.resize((img_rows,img_cols))
         file_name = path_to_dir + '\\' + str(i+1) + "_" + name_of_image
         resimg.save(file_name)
     
